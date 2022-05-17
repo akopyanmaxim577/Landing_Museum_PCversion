@@ -1,0 +1,93 @@
+.statue{
+    background-image: url(../img/statue_back.svg), url(../img/statue_circle.png);
+    max-width: 1664.96px;
+    max-height: 1287.52px;
+    background-size: cover,auto;
+    background-repeat: no-repeat;
+    background-position:0px,63% -3%;
+    margin-top: -197px;
+    z-index: 1;
+    padding: 86px 0px 0px 103px;
+}
+
+
+.st_title{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 108.54px;
+    line-height: 124px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 556px;
+    position: relative;
+}
+
+.st_title::after{
+    content: url(../img/statue_woman.png);
+    position: absolute;
+    top: -238px;
+    left: 37px;
+}
+
+
+.rigth_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 163.5%;
+    color: #FFFFFF;
+    max-width: 812px;
+    margin: 96px 0px 0px 13px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27.5133px;
+    line-height: 141%;
+    color: #FFFFFF;
+    max-width: 442px;
+}
+.statue_text{
+    display: flex;
+    margin-top: 22px;
+    margin-left: 17px;
+    padding-bottom: 73px;
+}
+
+.statue_more{
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.9399px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    margin-top: 79px;
+    margin-left: 113px;
+}
+
+.statue_more::before{
+    content: " ";
+    width: 121.34px;
+    height: 121.34px;
+    background: #404040;
+    position: absolute;
+    border-radius: 100%;
+    z-index: -1;
+    top: -41px;
+    left: -41px;
+}
+
+
+
+
+
+
+

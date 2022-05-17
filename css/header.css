@@ -1,0 +1,21 @@
+.nav{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 692px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.link_right,
+.link_left{
+    display: flex;
+    gap: 39px;
+}
+.h_link_item{
+    text-transform: uppercase;
+    font-family: 'Baskervville', serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+

@@ -1,0 +1,29 @@
+.gallery_block{
+    max-width: 1231px;
+    display: flex;
+    margin: 0 auto;
+    gap: 4px;
+
+}
+
+.gallery{
+    margin-top: 87px;
+    padding-bottom: 50px;
+}
+
+.first_column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+.second_column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+.third_column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.5px;
+
+}
